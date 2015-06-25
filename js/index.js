@@ -9,5 +9,5 @@ $( document ).ready(function() {
 			$('#clock').html(isWorking ? 'Ja :D' : 'Nei :(');
 	}
 	update();
-	setTimeout(update, 60000);
+	setInterval(update, 60000);
 });
